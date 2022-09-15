@@ -49,6 +49,7 @@ img {
 }
 
 #projects {
+  margin-top: 30px;
   width: 100%;
   background: #45567d;
 }
@@ -69,4 +70,18 @@ img {
 color: white;
 text-decoration: none;
 text-align: center;
+}
+footer {
+  background:#45567d;
+}
+footer #left{
+  margin: 30px;
+  float: left;
+}
+footer #right{
+  margin: 30px;
+  float: right;
+}
+hr {
+  border: 3px solid red;
 }
