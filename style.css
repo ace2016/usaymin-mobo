@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+  background: #000;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: red;
+}
+
+#navbar {
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+  position: fixed;
+  background: red;
+  width: 100%;
+}
+#navbar a {
+	margin: 0 20px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+	}
+
+#welcome-section {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+@media {max-width: 780px;}{
+img {
+	width: 300px;
+	height: 300px;
+}
+}
+
+#projects {
+  width: 100%;
+  background: #45567d;
+}
+#projects-head{
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.project-tile{
+  background-color: gray;
+  padding: 20px;
+  width: 120px;
+  margin: 30px;
+}
+
+.project-tile a {
+color: white;
+text-decoration: none;
+text-align: center;
+}
